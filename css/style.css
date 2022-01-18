@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  width: 95%;
+  margin: 32px auto 28px auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #4e5150;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+section .shop {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 30px 15px;
+  margin-bottom: 40px;
+}
+
+section .shop .f_ {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: 20px auto;
+}
+
+section .shop .f_ img {
+  width: 150px;
+  height: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+
+section .shop .f_ .add {
+  height: 100%;
+  width: 40%;
+}
+
+section .shop .f_ .add h4 {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+section .shop .f_ .add .pr {
+  width: 98px;
+  margin: 10px auto 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .shop .f_ .add .pr span:first-child {
+  color: #f2994a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+section .shop .f_ .add .pr span:last-child {
+  text-decoration: line-through;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+section .shop .f_ .add .btn {
+  margin-top: 2.78em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #828282;
+  width: 110px;
+  border-radius: 12px;
+  padding: 15px 10px;
+}
+
+section .shop .f_ .add .btn .num {
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+section .shop .f_ .add .btn button {
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #E0E0E0E0;
+  width: 20px;
+  height: 20px;
+  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section .shop .fact {
+  width: 300px;
+  margin: 80px auto 0 auto;
+}
+
+section .shop .fact h3,
+section .shop .fact span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+section .shop .fact .ship,
+section .shop .fact .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #BDBDBD;
+  border-left: none;
+  border-right: none;
+  padding: 12px 0;
+}
+
+section .shop .fact .total {
+  border: none;
+  padding-top: 18px;
+}
+
+section .inputs .contact h3,
+section .inputs .shipping h3 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+section .inputs .contact > div h4,
+section .inputs .shipping > div h4 {
+  color: #4f4f4f;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+section .inputs .contact > div .in,
+section .inputs .shipping > div .in {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+section .inputs .contact > div .in input,
+section .inputs .shipping > div .in input {
+  width: 100%;
+  padding: 12px 8px 12px 36px;
+  border: solid 1px #828282;
+  border-radius: 12px;
+}
+
+section .inputs .contact > div .in img,
+section .inputs .shipping > div .in img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 8px;
+  top: calc(50% - 10px);
+  -webkit-filter: invert(0.5);
+          filter: invert(0.5);
+}
+
+section .inputs .contact .cn > div,
+section .inputs .shipping .cn > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .inputs .contact .cn > div .fl,
+section .inputs .shipping .cn > div .fl {
+  overflow: hidden;
+}
+
+section .inputs .contact .cn > div .fl:first-child,
+section .inputs .shipping .cn > div .fl:first-child {
+  width: 45%;
+}
+
+section .inputs .contact .cn > div .fl:first-child select,
+section .inputs .shipping .cn > div .fl:first-child select {
+  width: 100%;
+  padding: 12px 8px 12px 36px;
+  border-radius: 12px;
+}
+
+section .inputs .contact .cn > div .fl:first-child select option,
+section .inputs .shipping .cn > div .fl:first-child select option {
+  color: #232323;
+}
+
+section .inputs .contact .cn > div .fl:last-child,
+section .inputs .shipping .cn > div .fl:last-child {
+  width: 50%;
+}
+
+section .inputs .contact .save,
+section .inputs .shipping .save {
+  margin-bottom: 10em;
+}
+
+section .inputs .contact .save > div,
+section .inputs .shipping .save > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+section .inputs .contact .save > div p,
+section .inputs .shipping .save > div p {
+  margin-left: 8px;
+  font-size: 10px;
+  color: #4f4f4f;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section .inputs .contact .save button,
+section .inputs .shipping .save button {
+  float: right;
+  padding: 17px 40px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #f2994a;
+}
+
+@media screen and (max-width: 350px) {
+  section .shop .f_ {
+    display: block;
+    width: 100%;
+  }
+  section .shop .f_ img {
+    width: 100%;
+    height: 100%;
+  }
+  section .shop .f_ .add {
+    width: 100%;
+  }
+  section .shop .f_ .add .btn {
+    width: 100%;
+    margin: auto;
+  }
+  section .shop .f_ .add .pr {
+    display: block;
+    width: 100%;
+  }
+  section .shop .f_ .add .pr span {
+    display: block;
+  }
+  section .shop .fact {
+    width: 100%;
+  }
+  section .inputs .shipping .cn > div {
+    display: block;
+  }
+  section .inputs .shipping .cn > div .fl:first-child {
+    width: 100%;
+  }
+  section .inputs .shipping .cn > div .fl:last-child {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 160px) {
+  html,
+  body {
+    min-width: 180px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  body {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 90%;
+  }
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 45%;
+        grid-template-columns: 40% 45%;
+    -webkit-column-gap: 80px;
+            column-gap: 80px;
+  }
+  section .shop {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    height: 580px;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  section .inputs {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

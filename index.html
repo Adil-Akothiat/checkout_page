@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            checkout
+        </h1>
+        <p style="color: rgb(185, 37, 37); margin-top: 35px; font-size: 20px; font-weight: 700;" class="message" id="ms">
+
+        </p>
+        <a id="an" href="#ms"></a>
+    </header>
+    <section>
+        <div class="shop">
+            <div class="f_">
+                <img src="/images/photo1.png" alt="">
+                <div class="add">
+                    <h4>
+                        vintage backbag
+                    </h4>
+                    <div class="pr">
+                        <span>$54.99</span><span>$94.99</span>
+                    </div>
+                    <div class="btn btn_">
+                        <button class="min_">-</button>
+                        <span class="num">0</span>
+                        <button class="pl_">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="f_">
+                <img src="/images/photo2.png" alt="">
+                <div class="add">
+                    <h4>
+                        levi shoes
+                    </h4>
+                    <div class="pr">
+                        <span>$74.99</span> <span>$124.99</span>
+                    </div>
+                    <div class="btn">
+                        <button class="min">-</button>
+                        <span class="num">0</span>
+                        <button class="pl">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="fact">
+                <div class="ship">
+                    <h3>
+                        Shipping
+                    </h3>
+                    <span>
+                        $19
+                    </span>
+                </div>
+                <div class="total">
+                    <h3>
+                        Total
+                    </h3>
+                    <span>
+                        $148.98
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="inputs">
+            <form action="get" method="post">
+                <div class="contact">
+                    <h3>
+                        Contact information
+                    </h3>
+                    <div>
+                        <h4>
+                            E-mail
+                        </h4>
+                        <div class="in">
+                            <input type="email" placeholder="Enter your email..." name="email">
+                            <img src="/images/icons/mail_black_24dp.svg" alt="mail">
+                        </div>
+                    </div>
+                    <div>
+                        <h4>
+                            Phone
+                        </h4>
+                        <div class="in">
+                            <input type="text" placeholder="Enter your phone..." name="phone">
+                            <img src="/images/icons/local_phone_black_24dp.svg" alt="phone">
+                        </div>
+                    </div>
+                </div>
+                <div class="shipping">
+                    <h3>
+                        Shipping address
+                    </h3>
+                    <div>
+                        <div>
+                            <h4>
+                                Full name
+                            </h4>
+                            <div class="in">
+                                <input type="text" placeholder="Your name.." name="name">
+                                <img src="/images/icons/account_circle_black_24dp.svg" alt="acount">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>
+                                Address
+                            </h4>
+                            <div class="in">
+                                <input type="text" placeholder="Your address.." name="address">
+                                <img src="/images/icons/home_black_24dp.svg" alt="address">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>
+                                City
+                            </h4>
+                            <div class="in">
+                                <input type="text" placeholder="Your city.." name="city">
+                                <img src="/images/icons/location_city_black_24dp.svg" alt="city">
+                            </div>
+                        </div>
+                        <div class="cn">
+                            <div>
+                                <div class="fl">
+                                    <h4>
+                                        Country
+                                    </h4>
+                                    <div class="in">
+                                        <select style="color: #757575;" name="s_country">
+                                            <option value="default value">Your country..</option>
+                                            <option value="Morocco">Morocco</option>
+                                            <option value="Algeria">Algeria</option>
+                                            <option value="Egypt">Egypt</option>
+                                            <option value="United States
+                                            ">United States</option>
+                                            <option value="Saudi Arabia
+                                            ">Saudi Arabia</option>
+                                            <option value="Germany">Germany</option>
+                                            <option value="UK">UK</option>
+                                            <option value="China">China</option>
+                                        </select>
+                                        <img src="/images/icons/location_city_black_24dp.svg" alt="country">
+                                    </div>
+                                </div>
+                                <div class="fl">
+                                    <h4>
+                                        Postal code
+                                    </h4>
+                                    <div class="in">
+                                        <input type="text" placeholder="Your postal code.." name="postal">
+                                        <img src="/images/icons/markunread_mailbox_black_24dp.svg" alt="mailbox">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save">
+                            <div>
+                                <input type="checkbox" name="check">
+                                <p>
+                                    Save this information for next time
+                                </p>
+                            </div>
+                            <button id="submit">
+                                Continue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>  
+    <script src="/script.js"></script>
+</body>
+</html>
